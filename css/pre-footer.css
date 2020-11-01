@@ -1,0 +1,100 @@
+.section-pre-footer{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.0) 0%, rgba(0,0,0.9) 85%, #000000 0%),
+    url("../img/bg-signup.jpg");
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 0 ;
+}
+.section-pre-footer > .container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+
+}
+/* INPUT FORM AND OTHERS */
+.plane-img{
+    justify-self: center;
+    align-self: center;
+    width: 8%;
+}
+
+.form{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    width: 90%;
+}
+.form input{
+    display: flex;
+    width: 85%;
+    height: 45px;
+    margin: 15px 0;
+    padding: 0 10px;
+    text-transform: uppercase;
+    font: 12px "Varela Round";
+    color:  #b8b8b3;
+    border: none;
+    border-radius: 3px;
+
+}
+/* CONTACT BOX */
+.contact{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 500px;
+    margin-left: 0;
+}
+.lit-box{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: auto;
+    margin: 5px;
+    padding: 20px 10px;
+    background-color: white;
+    border-bottom: 4px solid #64a19d;
+    border-radius: 4px;
+}
+.box-img{
+    width: 20%;
+}
+.lit-box-hr {
+    width: 15%;
+    margin: 5px 0;
+    border: 2px solid #64a19d;
+    border-radius: 2px;
+}
+
+@media (max-width: 599px) {
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-self: center;
+        width: 90%;
+    }
+    .form input{
+        width: auto;
+        height: 45px;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+        
+    }
+    .lit-box{
+        align-self: center;
+        justify-self: center;
+    }
+}
+

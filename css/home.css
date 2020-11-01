@@ -1,0 +1,41 @@
+.section-home {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0.7) 75%, #000000 100%),
+    url("../img/bg-masthead.jpg");
+    background-size: 100%;
+    display: flex;
+    width: 100%;
+    height: 1188px;
+}
+.section-home > .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin: 0 auto;
+    color: #aeb8b8;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 500%;
+    background: -webkit-linear-gradient(#e6e6e6, #909090);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 5px;
+}
+
+
+@media (max-width: 599px) {
+    .section-home {
+        width: 100%;
+        height: 520px;
+    }
+    .section-home > .container{
+        width: 100%;
+    }
+    h2{
+        font-size: 200%;
+    }
+} 

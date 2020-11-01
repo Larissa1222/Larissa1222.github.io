@@ -1,0 +1,141 @@
+.section-middle > .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 0 ;
+    background-color: #f8f9fa;
+}
+/* SHORELINE DIV */
+.shoreline{
+    display: flex;
+    width: 90%;
+    margin: 10px;
+}
+.section-middle > .container > .shoreline img{ 
+    max-width: 60%;
+}
+.shoreline-box{
+    justify-items: center;
+    align-self: center;
+    max-width: 22.5%;
+    border-left: 5px solid #64a19d;
+}
+/* MISTY DIV */
+.misty{
+    display: flex;
+    max-width: 90%;
+    background-color: black;
+}
+.section-middle > .container > .misty img{
+    align-self: start;
+    max-width: 50%;
+}
+.misty-box{
+    align-self: center;
+    max-width: 40%;
+}
+
+/* MOUNTAINS DIV */
+.mountains{
+    display: flex;
+    justify-content: flex-end;
+    max-width: 90%;
+    background-color: black;
+}
+.section-middle > .container > .mountains img{
+    max-width: 50%;
+    order: 1;
+}
+.mountains-box{
+    align-self: center;
+    width: 40%;
+}
+/* OTHERS CUSTOMIZATIONS */
+.black-h3{
+    font-weight: normal;
+    padding-left: 20px;
+}
+.left-h3{
+    text-align: left;
+    font-weight: normal;
+    padding: 10px 20px;
+    color:white;
+}
+.right-h3{
+    text-align: right;
+    font-weight: normal;
+    padding: 10px 20px;
+    color:white;
+}
+
+.left-hr{
+    width: 30%;
+    margin: 10px 20px;
+    border: 2px solid #64a19d;
+    border-radius: 2px;
+}
+.right-hr{
+    float: right; 
+    width: 30%;
+    margin: 10px 20px;
+    border: 2px solid #64a19d;
+    border-radius: 2px;  
+}
+
+@media (max-width: 599px){
+    .section-middle > .container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    /* SHORELINE */
+    .shoreline{
+        flex-direction: column;
+    }
+    .section-middle > .container > .shoreline img{
+        align-self: center;
+        width: fit-content;
+        min-width: 85%;
+    }
+    .shoreline-box{
+        align-items: flex-start;
+        min-width: 85%;
+    }
+    /* MISTY */
+    .misty{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-self: center;
+        width: 76%;
+        margin-top: 40px;
+    }
+    .section-middle > .container > .misty img{
+        align-self: center;
+        min-width: 95%;
+        padding-top: 10px;
+    }
+    .misty-box{
+        align-self: center;
+        min-width: 90%;
+    }
+    /* MOUNTAINS */
+    .mountains{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-self: center;
+        width: 76%;
+    }
+    .section-middle > .container > .mountains img{
+        align-self: center;
+        min-width: 95%;
+        order: 1;
+    }
+    .mountains-box{
+        align-self: center;
+        min-width: 90%;
+        order: 2;
+    }
+}
