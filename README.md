@@ -10,6 +10,7 @@
 ## Objetivo:
   * Desenvolver melhor as habilidades no css, combinando elementos;
   * Criar um template responsivo;
+  * Observação: Esse site funciona melhor na resolução de 599px, em dispositivos com resolução abaixo pode não ficar como esperado;
   
 ## Mais informações:
 
